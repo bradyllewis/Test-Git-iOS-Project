@@ -21,6 +21,7 @@
 		888C2E4A19115BB60049C1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C2E2C19115BB60049C1B3 /* UIKit.framework */; };
 		888C2E5219115BB60049C1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888C2E5019115BB60049C1B3 /* InfoPlist.strings */; };
 		888C2E5419115BB60049C1B3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2E5319115BB60049C1B3 /* Git_TestTests.m */; };
+		888C2E5F19115E840049C1B3 /* ZZZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2E5E19115E840049C1B3 /* ZZZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		888C2E4F19115BB60049C1B3 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		888C2E5119115BB60049C1B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		888C2E5319115BB60049C1B3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		888C2E5D19115E840049C1B3 /* ZZZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZTest.h; sourceTree = "<group>"; };
+		888C2E5E19115E840049C1B3 /* ZZZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		888C2E1C19115BB60049C1B3 = {
 			isa = PBXGroup;
 			children = (
+				888C2E5D19115E840049C1B3 /* ZZZTest.h */,
+				888C2E5E19115E840049C1B3 /* ZZZTest.m */,
 				888C2E2E19115BB60049C1B3 /* Git Test */,
 				888C2E4D19115BB60049C1B3 /* Git TestTests */,
 				888C2E2719115BB60049C1B3 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				888C2E3519115BB60049C1B3 /* main.m in Sources */,
 				888C2E3919115BB60049C1B3 /* ZZZAppDelegate.m in Sources */,
+				888C2E5F19115E840049C1B3 /* ZZZTest.m in Sources */,
 				888C2E3F19115BB60049C1B3 /* ZZZViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
